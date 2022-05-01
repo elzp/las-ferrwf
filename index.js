@@ -6,7 +6,7 @@ const images = {
 };
 
 //source of sound: https://bigsoundbank.com/detail-0237-shouts-and-applauses-of-teens-2.html
-let sound = new Howl({
+const sound = new Howl({
   src: ['https://bigsoundbank.com/UPLOAD/mp3/0237.mp3'],
 });
 
